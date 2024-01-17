@@ -1,0 +1,103 @@
+*departman ısmınde sınıf
+içerisinde özellikler:
+class team lead,
+personel list,
+ assignmentlist
+
+*departman sınıfın alt sınıfları:
+kadın
+erkek
+
+
+
+-----------------------------
+Kadın ve erkek sınıfı deaprtman sınıfın alt sınıfıdır
+
+mumkun oldugunca sınıflar basıt olsun yenı metod sınıf olsun
+her sınıf her metod tek bır ıs yapsın ayrı ayrı yaz
+daha esnek kodlama olucaktır
+
+
+-------------------------------------------------------------
+//Departman isminde sınıf oluşturun,
+bu sınıf özellikleri olarak;
+
+class team lead,
+personel list,
+ assignmentlist  içermelidir.
+
+ -------------------------------------------------------------------
+//Team lead olmadan bir ekip oluşturulamaz,
+sınıfın yöntemleri;
+ teamlead değiştirme,
+ personel ekleme/çıkarma/değiştirme,
+  görev ekleme,
+  görevi tamamlandı
+
+  olarak işaretleme olmalıdır
+ -----------------------------------------------------------------
+ //Team lead ve personel >Departman sınıfının örnekleri,
+ görevler ise metin dizileri olarak oluşturulmalıdır.
+ ------------------------------------------------------------------
+//Erkek ve Kadın sınıflarını uygulayın;
+ Erkek [ad, soyad, doğum tarihi]
+  Kadın[ad, soyad, doğum tarihi]  alanlarına sahiptir.
+  -------------------------------------------------------
+
+ //Erkekeler +kadınlar =emekli olma zamanını hesaplayan bir yönteme sahiptir
+ Erkekler;ancak erkekler 65 yaşında emekli olurken
+ //Kadınlar hem de kadınlar emekli olma zamanını hesaplayan bir yönteme sahiptir,
+ kadınlar 60 yaşında emekli olur.
+
+----------------------------------------------------------------------
+!!Departman ısmınde sınıf olusdturun:
+sınıf alanları ve metodlarından bahsedıyor
+
+!!Odevde kalıtım,kapsulleme,soyutlama,cok bıcımlılık,
+ullanarak buıslmelrı gerceklestıreceksın.
+
+Bunu yaparken
+arayuz,
+soyut sınıf,
+soyut metod,
+getter setter
+yapılarını kullanarak
+
+Departmen,
+perosnel,
+ve
+hatta kadın ,erkek(emeklılık ozellıkler farklıoldugu ıcın)
+sınıflarını olusturup ılgılı sınıflarda da yukarıda saydıgımız alanlara ve metodlara
+sahip olması gerekiyor
+
+---------------------------------------------------------------------
+Yapan birisi;
+Yapıyı şöyle tasarladım Personel isimli bir abstract
+class oluşturdum.
+ Bu class personel ad soyad ve doğum tarihi tutuyor.
+ İçinde ek olarak emeklilik tarihini hesaplamak için
+ abstract metot
+ boş şekilde tanımladım.
+-----------------------------------------------------
+Personel abstract sınıfından
+Erkek ve Kadın subclassları oluşturdum.
+Ememklilik tarihini hesaplayan metotu alt sınıflarda override ettim.
+
+Departmanın ekiplerden oluştuğunu var sayarak ekip
+isimli bir sınıf oluşturdum.
+
+Ekibi oluşturabilmek için de
+constructor a lead vermeyi zorunlu tuttum.
+Ekip elemanları lead,
+personel listesi ve task listesidir.
+*******************************************
+Burada lead değiştirme personel ekle çıkar
+güncelle metotları.
+Task ekleme/ güncelleme metotları ekledim.
+
+Departman sınıfınıda liste şeklinde
+bu ekip sınıflarını tutacak şekilde oluşturdum.
+Böylece 1 depatman n tane ekipten oluşabilir.
+
+Umarım doğru anlamışımdır 🙂
+---------------------------------------------------

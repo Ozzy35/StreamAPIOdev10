@@ -1,0 +1,35 @@
+* 3adet sınıf olustur:
+Araba
+Sedan / araba kasa tipidir
+Hatcback /araba kasa tipidir
+Burda olması gereken Sedan ve Hatchback BİR ARABADIR
+yani Araba  sınıfının alt sınfıdır
+--------------------------------------------------
+* 3 sınıf arasındaki ilişkiyi tanımla
+kasaTipi
+model
+kullanimKm
+fiyat
+kapiDegişkelnleri ni tanımla.
+--------------------------------------------------
+* Metod 1 oluştur:
+arabayiSur
+
+Bu metod ile arabanın km si
+verilen değer ile arttırılsın
+ve konsola yazılsın
+-----------------------------------------
+*Tüm sınıflarda constractor olmalı ve
+değişkenlerin tamamı
+ya da bir kısmı constractorla tanımlanmalı.
+-----------------------------------------
+* Metod 2:
+satisFiyatı
+
+Arabanın satış fiyatını belirleyin.
+-----------------------------------------
+*Ana sınıfta 2 farklı araç oluştuturarak,
+bu araçları sürüp,fiyatlarını güncelleyin.
+sedan aracın ısmı sedan coupe
+
+----------

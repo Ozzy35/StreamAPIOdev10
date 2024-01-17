@@ -1,0 +1,16 @@
+//  Bir dizi metni dolaşan bir algoritma oluşturun; her metin, tüm karakterlerin tekrar edilebilirliğini kontrol eder,
+//  ardından gerekli iki kelime bulunduğunda işlemi sonlandırır
+//  ve bu kelimelerin karakterlerinden benzersiz bir karakter kümesi döndürür.
+----------------------
+
+Yorum:
+Donguleri farkli array ve hardshe kullanarak atayip onlari da yine karakter bazinda dolarsarak karsilastirman gerek’yor
+Yorum:
+array ve list olarak da olabılır
+head set olarakda kullanabılırsın
+dızıden ıcerısınde metın olan bır dızı olusturucaksın
+ıcerısınde ayrı lamba ıkı tae tekrar etmeyen aynı harfı tekrar etmeyen kelımerı bulucak asak bır dızıye atıcaksın
+calıskan
+bonus
+hesap test
+
